@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "dev:server": "npx json-server server.json -p 8080",
+    "dev:startup": "npm run dev && npm run dev:server",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
